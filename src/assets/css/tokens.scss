@@ -1,0 +1,42 @@
+$sm-device: 375px;
+$md-device: 800px;
+
+//## Colors
+
+//### Primary
+//$color-primary-violet: hsl(257, 40%, 49%); //Violet
+$color-primary-magenta: #fdcbc4; //Soft-Magenta
+$color-primary-red: hsl(7, 99%, 70%);  //Soft r ed
+$color-primary-yellow: hsl(51, 100%, 49%);  //Yellow
+$color-primary-dark-cyan: hsl(167, 40%, 24%);  //Dark desaturated cyan (graphic design text)
+$color-primary-blue: hsl(198, 62%, 26%);  //Dark b lue (photography text)
+$color-primary-cyan: hsl(168, 34%, 41%);  //Dark m oderate cyan (footer)
+
+//### Neutral
+$color-neutral-dark-blue : hsl(212, 27%, 19%);//- Very dark desaturated blue
+$color-neutral-gray3 : hsl(213, 9%, 39%);//- Very dark grayish blue    
+$color-neutral-gray2 : hsl(232, 10%, 55%);//- Dark grayish blue         
+$color-neutral-gray1 : hsl(210, 4%, 67%);//- Grayish blue              
+$color-neutral-white : hsl(0, 0%, 100%);//- White                     
+
+$color-text: $color-primary-dark-cyan;
+$color-photo-text: $color-primary-blue;
+$color-footer:$color-primary-cyan;
+$color-header: $color-neutral-white;
+
+
+//##Typography
+//### Headings
+$text-heading-font-family: "Fraunces";
+
+
+//###Body
+$text-default-font-family: "Barlow";
+
+$text-default-color: $color-text;
+$text-default-font-size: 18px;
+
+//Form
+$color-btn-primary: white;
+
+
