@@ -12,7 +12,7 @@
     "lint": "vue-cli-service lint",
     "start": "node server.js"
   },
-  "homepage": "https://gitlab.com/frontendchallenges/space-tourism#readme",
+  "homepage": "https://gitlab.com/frontendchallenges/sunnyside-agency#readme",
   "dependencies": {
     "core-js": "^3.6.5",
     "vue": "^3.0.0",

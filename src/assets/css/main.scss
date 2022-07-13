@@ -22,12 +22,15 @@ body {
 $underline-width: 10em;
 
 .menu {
+  margin-top: 2em;
   display: flex;
   .brand {
     margin-right: auto;
     padding: 0 1em;
     h3 {
-      margin: 1ex 0;
+      margin: 0 0.5ex;
+      font-size: 1.5em;
+      aletter-spacing: 1pt;
     }
   }
 }
@@ -40,7 +43,7 @@ $underline-width: 10em;
   position: fixed;
   right: 1em;
   padding: 1em 2.5em;
-  margin: 1em;
+  margin: 0;
   text-align: center;
 }
 #hamitems:after {
@@ -243,6 +246,15 @@ $underline-width: 10em;
 }
 
 @media screen and (min-width: $md-device) {
+  .menu {
+    .brand {
+      h3 {
+        margin: 0 1ex;
+        font-size: 2em;
+        letter-spacing: 1pt;
+      }
+    }
+  }
   #hamitems {
     display: flex;
     background-color: transparent;
